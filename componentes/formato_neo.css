@@ -1,0 +1,82 @@
+*{
+ box-sizing :border-box;
+ transform: all 0.3 ease-in-out;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+main#inicio{
+    background-color: transparent;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+/*clases*/
+.caja{
+    border-radius: 38px;
+    height: 320px;
+    width: 320px;
+    padding: 40px;
+
+}
+.campo{
+    background-color:transparent ;
+    border: none;
+    border-radius: 32px;
+    margin: 16px 0;
+    padding: 16px;
+    width: 83%;
+   
+}
+
+
+.claro{
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: grid;
+    place-items: center;
+
+}
+.clara{
+    background-color: #eee;
+    box-shadow: 9px 9px 16px #BBB,
+                -9px -9px 16px #fff;
+
+
+   
+}
+    .clara .campo {
+        box-shadow: inset 10px 10px 9px #BBB,
+                    inset -10px -10px 9px #fff;
+                    color: #f80063;
+    }
+
+.oscuro{
+    background-color:#222;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: grid;
+    place-items: center ;
+}
+
+.oscura{
+    background-color: #222;
+    margin: 0;
+    box-shadow: 9px 9px 16px #000,
+                -9px -9px 16px rgba(51,51,51,0.5);
+}
+    .oscura .campo {
+        box-shadow: inset 10px 10px 9px #000,
+                    inset -10px -10px 9px rgba(51,51,51,0.5);
+                    color: #c90def;
+    }
